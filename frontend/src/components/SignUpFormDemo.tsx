@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 import { useRouter } from "next/navigation";
 import { useFormik } from "formik";
 import axios from "axios";
-import { toast } from "react-toastify";
+import toast from "react-hot-toast";
 import * as Yup from "yup";
 import Link from "next/link";
 
